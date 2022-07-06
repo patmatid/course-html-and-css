@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Challenge #1 Component</title>
+    <style>
+      /*
+            SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+            FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+            */
+      /*
+                  MAIN COLOR: #087f5b
+                  GREY COLOR: #343a40
+                  */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* ------------------------ */
+      /* GENERAL STYLES */
+      /* ------------------------ */
+      body {
+        font-family: sans-serif;
+        color: #343a40;
+        line-height: 1;
+      }
+
+      .pagination {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .button {
+        width: 20px;
+        /*height: 20px;*/
+        cursor: pointer;
+      }
+
+      .tr {
+        display: flex;
+        gap: 20px;
+      }
+
+      td {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="pagination">
+      <svg
+        class="button"
+        xmlns="http://www.w3.org/2000/svg"
+        width="192"
+        height="192"
+        fill="#000000"
+        viewBox="0 0 256 256"
+      >
+        <rect width="256" height="256" fill="none"></rect>
+        <polyline
+          points="160 208 80 128 160 48"
+          fill="none"
+          stroke="#000000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="16"
+        ></polyline>
+      </svg>
+
+      <table class="table">
+        <tr class="tr">
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+      </table>
+
+      <svg
+        class="button"
+        xmlns="http://www.w3.org/2000/svg"
+        width="192"
+        height="192"
+        fill="#000000"
+        viewBox="0 0 256 256"
+      >
+        <rect width="256" height="256" fill="none"></rect>
+        <polyline
+          points="96 48 176 128 96 208"
+          fill="none"
+          stroke="#000000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="16"
+        ></polyline>
+      </svg>
+    </div>
+  </body>
+</html>
